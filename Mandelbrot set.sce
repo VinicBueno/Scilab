@@ -1,3 +1,7 @@
+/* Este código desenha o conjunto de Mandelbrot usando o algoritmo "escape time". 
+O conjunto de Mandelbrot é o conjunto dos números complexos c para os quais a sequência 
+z_n = z_{n-1}^2 + c, com z_0 = 0, não diverge. */
+
 // Definir os parâmetros do gráfico
 x0 = -2;       // limite esquerdo
 x1 = 1;        // limite direito
